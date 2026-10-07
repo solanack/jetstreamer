@@ -45,7 +45,8 @@ base64.workspace = true
 bincode.workspace = true
 solana-logger.workspace = true
 log.workspace = true
-rseek.workspace = true
+# rseek 0.4 uses reqwest 0.13; firehose 0.2 uses reqwest 0.12.
+rseek = "=0.3.0"
 crc.workspace = true
 serde_cbor.workspace = true
 fnv.workspace = true
